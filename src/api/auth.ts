@@ -22,7 +22,10 @@ export default (app: Router) => {
         access_token: Joi.string().required(),
       }),
       // type => signup: 회원가입, signin: 로그인
-      query: Joi.object({ type: Joi.string().required() }),
+      query: Joi.object({
+        type: Joi.string().required(),
+        pn: Joi.string().allow('').allow(null),
+      }),
     }),
     wrapAsync(async (req: Request, res: Response) => {
       const { access_token } = req.body || {};
@@ -41,6 +44,7 @@ export default (app: Router) => {
         type: Joi.string().required(),
         code: Joi.string().required(),
         state: Joi.string().required(),
+        pn: Joi.string().allow('').allow(null),
       }),
     }),
     wrapAsync(async (req: Request, res: Response) => {

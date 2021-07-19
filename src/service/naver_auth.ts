@@ -2,6 +2,7 @@ import { CognitoIdentityServiceProvider } from 'aws-sdk';
 import get from 'axios';
 import Logger from '../loaders/logger';
 import config from '../config';
+import { get_nickname } from './../utils/nickname';
 
 const cognitoidentityserviceprovider = new CognitoIdentityServiceProvider({
   apiVersion: '2016-04-18',
@@ -61,7 +62,7 @@ export default class NaverAuthService {
           },
           {
             Name: 'name' /* required */,
-            Value: 'kakao',
+            Value: get_nickname(),
           },
           {
             Name: 'phone_number' /* required */,
