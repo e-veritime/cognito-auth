@@ -4,11 +4,11 @@
 
 ### kakao
 
-![kakao_login](./kakao_login.png)
+![kakao_login](/kakao_login.png)
 
 ### naver
 
-![naver_login](./naver_login.png)
+![naver_login](/naver_login.png)
 
 ## Getting Started
 
