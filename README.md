@@ -45,4 +45,4 @@ npm run start
 
 - ci/cd 는 프로젝트 중단하면서 disable
 - enable 시 github secret setting 필요
-- chatting gitops repo: https://github.com/e-veritime/gitops/tree/main/dev/kakao-auth
+- gitops repo: https://github.com/e-veritime/gitops/tree/main/dev/kakao-auth
