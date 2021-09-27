@@ -4,11 +4,11 @@
 
 ### kakao
 
-![kakao_login](/kakao_login.png)
+![kakao_login](https://github.com/e-veritime/cognito-auth/blob/main/kakao_login.PNG)
 
 ### naver
 
-![naver_login](/naver_login.png)
+![naver_login](https://github.com/e-veritime/cognito-auth/blob/main/naver_login.PNG)
 
 ## Getting Started
 
